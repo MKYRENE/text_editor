@@ -1,6 +1,5 @@
-# Objection
-"An impressive single-page, offline-enabled text editor with data persistence and redundancy, utilizing IndexedDB and deployed on Heroku."
 # Progressive Web Applications (PWA) Challenge: Text Editor
+"An impressive single-page, offline-enabled text editor with data persistence and redundancy, utilizing IndexedDB and deployed on Heroku."
 
 Welcome to the Progressive Web Applications (PWA) Challenge: Text Editor project! This undertaking demonstrates your adeptness in the skills and concepts acquired throughout the course. The project showcases an exceptional implementation of a browser-based text editor, encompassing key features and functionality.
 
