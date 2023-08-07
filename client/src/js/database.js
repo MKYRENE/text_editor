@@ -20,6 +20,7 @@ export const putDb = async (content) => {
   const db = await dbPromise;
   const tx = db.transaction('jate', 'readwrite');
   const store = tx.objectStore('jate');
+  //replace store item with an ID of 1 with an object and property of content and value of content above.*
   await store.add(content);
   await tx.done;
   console.log('Content added to the database:', content);
@@ -31,6 +32,8 @@ export const getDb = async () => {
   const tx = db.transaction('jate', 'readonly');
   const store = tx.objectStore('jate');
   const content = await store.getAll();
+  //get item from the store with id 1 *
+  //return item .content *
   console.log('Content retrieved from the database:', content);
-  return content;
+  return content; 
 };
